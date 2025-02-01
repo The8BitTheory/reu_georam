@@ -1,12 +1,11 @@
 #RetroDevStudio.MetaData.BASIC:8193,BASIC 65,uppercase,10,10
-10 S=TI:PRINTCHR$(27)"4";
+10 S=TI:PRINTCHR$(27)"4";
 20 POKE53280,11:POKE53281,11:COLOR 1
-30 PRINT
 40 PRINT"                     THE 8-BIT THEORY"
 50 PRINT
-60 PRINT
-70 PRINT"                  "
-80 PRINT"                  "
+60 PRINT"                           PLEASE"
+70 PRINT"                        SUBSCRIBE WITH"
+80 PRINT"                         NOTIFICATIONS"
 90 PRINT"                  "
 100 PRINT"                     "
 110 PRINT"                                  "
@@ -33,7 +32,7 @@
 310 GET I$:IF I$="" THEN 310
 320 PRINT "PRESS KEY"
 330 GET I$:IF I$="" THEN 330
-340 S=TI:GOSUB 400:PRINT "DMA:    "TI-S "SECONDS";:GOTO 310
+340 S=TI:GOSUB 400:PRINT "DMA:    "TI-S "SECONDS";:GOTO 310
 350 END
 
 
