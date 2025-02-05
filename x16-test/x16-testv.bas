@@ -31,8 +31,9 @@
 245 COLOR 2,11
 250 PRINT"                         "
 260 PRINT"                           "
-270 PRINT
-280 COLOR 1,11:PRINT"             COMMANDER X16"
+270 COLOR 1,11:PRINT"               VRAM-ONLY"
+280 PRINT"             COMMANDER X16"
+285 PRINT
 290 PRINT TI-S
 
 299 REM ########################################
